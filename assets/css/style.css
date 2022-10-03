@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: beige;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#acerca_de_mi {
+    background: lightgrey;
+    padding: 30px;
+}
+
+h1.nombre {
+    font-weight: bold;
+}
+
+h1.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+p.card-text {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.titulo_formacion {
+    margin-top: 30px;
+}
+
+.formacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+    gap: 50px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.titulo_skills {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-skills {
+    background: #ffffff;
+    width: 176px;
+    height: 164px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fa-brands {
+    color: #2A7AE4;
+}
+
+.skill_3 {
+    margin-left: 15px;
+}
+
+.img_skill_3 {
+    margin-bottom: 20px;
+    width: 20px;
+    height: 24px;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 210px;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.card-text-institucion {
+    color: #464646;
+    font-size: 16px;
+}
+
+.card-text-periodo {
+    color: #464646;
+    font-size: 14px;
+}
+
+.card {
+    margin: 4rem;
+    border-color: lightgray;
+}
+
+.custom-color {
+    background: pink;
+}
+
+.boton_enviar {
+    text-align: center;
+}
+
+.custom-color1 {
+    background: lightgrey;
+}
+
+.icono_github {
+    margin: auto;
+}
+
+.form-nombre,
+.form-correo {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px 2px lightgrey;
+}
+
+#form_textarea {
+    width: 95%;
+    border: none;
+    box-shadow: 2px 2px 4px 2px lightgrey;
+}
+
+#btn_enviar {
+    background: #0d6efd;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.btn_subir {
+    color: darkslategrey;
+    margin-right: 5px;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    scale: 1;
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.mostrar {
+    scale: 1;
+    animation: subir 4s infinite;
+}
+
+.footer {
+    background: lightblue;
+    color: #000000;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+/* MEDIA QUERY */
+/* TABLET */
+@media (max-width:768px) {
+    .skills {
+        gap: 5px;
+    }
+
+    .card-skills {
+        margin: 10px;
+        width: 176px;
+        height: 164px;
+    }
+
+    .card-img-top {
+        width: 190px;
+        height: 180px;
+        margin: 10px;
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+
+    .card-text-institucion {
+        font-size: 15px;
+    }
+
+    .card-text-periodo {
+        font-size: 13px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+/* MOVIL */
+@media (max-width:480px) {
+    .nombre h1 {
+        font-size: 22px;
+    }
+
+    .nombre h5 {
+        font-size: 15px;
+    }
+
+    a.nav-link {
+        font-size: 16px;
+    }
+
+    h4.carrera {
+        font-size: 17px;
+    }
+
+    h4.card-text {
+        font-size: 15px;
+    }
+
+    p.card-text {
+        margin: 15px;
+        font-size: 14px;
+    }
+
+    .card-skills {
+        width: 150px;
+        height: 120px;
+    }
+
+    .formacion {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-img-top {
+        width: 190px;
+        height: 180px;
+        margin: 10px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text-institucion {
+        font-size: 14px;
+    }
+
+    .card-text-periodo {
+        font-size: 13px;
+    }
+
+    .btn_subir {
+        margin-bottom: 10px;
+        margin-right: 4px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
